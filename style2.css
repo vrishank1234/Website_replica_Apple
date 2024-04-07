@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif;   */
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family:"Poppins", sans-serif;
+    
+    scroll-behavior: smooth;
+}
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    
+  }
+
+#main{
+  position: relative;
+  overflow: hidden;
+}
+
+#tech{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+#tech>nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  height: 7vh;
+  width: 50vw;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000000;
+  border-bottom: 1px solid #333;
+}
+
+#tech>nav>button>a{
+color: #000000;
+}
+
+#tech>nav>button{
+  padding: 7px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #76707030;
+}
+#tech>nav>h3>a{
+  font-weight: 400;
+  color: #000000;
+  font-size: larger;
+  text-decoration: none;
+}
+
+#tech>nav>h4>a{
+font-weight: 400;
+font-size:medium;
+color: #000000;
+text-decoration: none;
+}
+
+#tech>nav>h5>a{
+font-weight: 400;
+font-size:medium;
+color: #000000;
+text-decoration: none;
+}
+
+/* #main{
+} */
+.vision{
+  display: flex;
+  justify-content: center;
+  /* width: 75%;
+  height: 50%; */
+}
+
+#main>img{
+  width: 40%;
+  position:fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding-top: 10%;
+}
+/* #border{
+  border-bottom: 1px solid #333;
+} */
+
+#capacity{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #333;
+  transform: translatey(-600%);
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 5px;
+  margin-top: 20%;
+  font-weight: 600;
+}
+
+
+#display{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #333;
+  transform: translatey(-600%);
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 5px;
+  margin-top: 50%;
+  margin-bottom: 10%;
+
+}
+
+#chips{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #333;
+  transform: translatey(-600%);
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 6.9px;
+  /* margin-top: 2%; */
+
+
+}
+
+.m1{
+  height: 50px;
+  width: 50px;
+}
+
+#apps{
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #333;
+  transform: translatey(-600%);
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: 25%;
+  flex-wrap: wrap;
+  /* margin-top: 30%; */
+  /* padding-top: 5px; */
+
+}
+#apps>img{
+  height: 50px;
+  width: 50px;
+  justify-content: space-between;
+  gap: 100px;
+  border-radius: 50%;
+
+}
+
+#page2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: #F5F5F7;
+  /* column-gap: 15%; */
+}
+
+.left14{
+  height: 20vh;
+  width: 20vw; 
+ position: relative;
+ background-image: url(itb_cover__fmm1o03zrdaq_medium_2x.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin-bottom: 10%;
+align-items: center;
+}
+
+.right14{
+  height: 20vh;
+  width: 20vw; 
+  position: relative;
+  background-image: url( itb_dual_loop_band__dugd41q8oy2q_medium_2x.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+  align-self: center;
+  margin-left: 5%; 
+}
+
+.apple{
+  height: 20vh;
+  width: 20vw; 
+  position: relative;
+  background-image: url( itb_apple_vision_pro__btfvkzf3t0r6_medium_2x.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10%;
+
+}
+
+.left14>h1{
+  margin-top: 58%;
+  margin-left: 32%;
+}
+
+.right14>h1{
+  margin-top: 58%;
+  margin-left: 15%;
+}
+.apple>h1{
+  margin-top: 58%;
+  margin-left: 14%;
+  transition: ease-in 1s;
+}
+
+
+#apps>img:hover {
+  transform: scale(1.5);
+  
+}
+
